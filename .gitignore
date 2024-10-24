@@ -1,3 +1,6 @@
 *.csv
 *.txt
 *.zip
+# Ignore the virtual environment
+sesnenv/
+
