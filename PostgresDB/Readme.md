@@ -4,3 +4,5 @@ populate-database => a python file that assumes you have all of the text files p
 for extraction, the current state gets info for not-fall. I used the same script for fall with slight changes.
 change the first two queries to use NOT EXIST instead of EXISTS, (leave the last query)
 then set the variable "target" = 1
+
+schema.sql => should be run in the beginning to set up postgres schema
