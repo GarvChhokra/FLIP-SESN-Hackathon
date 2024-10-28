@@ -5,4 +5,4 @@ for extraction, the current state gets info for not-fall. I used the same script
 change the first two queries to use NOT EXIST instead of EXISTS, (leave the last query)
 then set the variable "target" = 1
 
-schema.sql => should be run in the beginning to set up postgres schema
+init_db.sql => should be run in the beginning to set up postgres schema

@@ -1,3 +1,7 @@
+CREATE DATABASE CanadaVigilanceAdverseReaction;
+
+\c CanadaVigilanceAdverseReaction;
+
 CREATE TABLE Reports (
     REPORT_ID NUMERIC(9) NOT NULL,
     REPORT_NO VARCHAR(9) NOT NULL,
