@@ -1,4 +1,4 @@
-# SESN Hackathon - Fall Prevention via Predictive ML Models
+# SESN Hackathon - FLIP (Fall Likelihood Identification​ and Prevention​)
 This project contains two main parts - fall prediction using the Canada Vigilance Adverse Reaction dataset and gait analysis.
 
 ## 1. Canada Vigilance Adverse Reaction Data Extraction, Database Population, and Model Training
