@@ -104,6 +104,17 @@ python model.py
 
 This script serves as an example of how to load the extracted data and train a model on it.
 
+
+## 2. Gait Analysis and Fall Detection
+
+This section uses Inertial Measurement Unit (IMU) data to detect falls and analyze gait patterns by processing accelerometer and gyroscope data from wearable sensors.
+
+### Open-source Dataset
+
+We have used one open dataset that is available on Kaggle to train the ML model to capture the different movements that includes fall.
+Dataset Link: [https://www.kaggle.com/datasets/harnoor343/fall-detection-accelerometer-data/data](https://www.kaggle.com/datasets/harnoor343/fall-detection-accelerometer-data/data)
+
+
 ---
 
 ## File Descriptions
@@ -113,6 +124,8 @@ This script serves as an example of how to load the extracted data and train a m
 - **init_db.sql**: A SQL file that defines the schema for the PostgreSQL database.
 - **model.py**: An example machine learning script that trains a model on the extracted data.
 - **Dockerfile**: A Dockerfile that sets up a PostgreSQL container and initializes the schema.
+- **GAIT_analysis.py**: A Python script for detecting falls using accelerometer and gyroscope data.
+- **Model-AI-sensors.py**: A script for training a machine learning model on open source movement data for different movement patterns.
 
 ---
 
