@@ -38,7 +38,7 @@ Once the image is built, run the container to start the PostgreSQL database:
 docker run -d --name sesn_hack_pg_container -p 5432:5432 sesn_hack_pg_db
 ```
 
-This starts the PostgreSQL container and exposes it on port 5432. The container is now running the database with the schema created from the `schema.sql` file.
+This starts the PostgreSQL container and exposes it on port 5432. The container is now running the database with the schema created from the `init_db.sql` file.
 
 #### Step 3: Connect to the PostgreSQL Database
 
